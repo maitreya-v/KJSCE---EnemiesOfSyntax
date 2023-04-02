@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "name": "Grocery Shopping",
+      "todo": "Buy groceries for the week, including fruits, vegetables, bread, and milk.",
+      "img_url": "https://images.unsplash.com/photo-1598514468242-f84e4afe874f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGdyb2NlcnklMjBzaG9wcGluZyUyMGltYWdlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1"
+    },
+    {
+      "id": 2,
+      "name": "Clean the House",
+      "todo": "Clean the living room, bedroom, and kitchen. Vacuum the floors and dust the furniture. Clean the bathroom and scrub the toilet and sink.",
+      "img_url": "https://images.unsplash.com/photo-1608939073743-d3e0b8d0b6aa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGdyb2NlcnklMjBjbGVhbmluZyUyMGltYWdlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1"
+    },
+    {
+      "id": 3,
+      "name": "Go for a Run",
+      "todo": "Put on running shoes and run for 30 minutes around the neighborhood. Stretch before and after the run to prevent injury.",
+      "img_url": "https://images.unsplash.com/photo-1551218808-94ebc238b46a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVxdWlyZWQlMjBwbGF5aW5nJTIwbW92ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1"
+    },
+    {
+      "id": 4,
+      "name": "Learn React",
+      "todo": "Complete a tutorial on React and build a simple application using React components.",
+      "img_url": "https://images.unsplash.com/photo-1622407070643-7cb16c4e4b9d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhY3QlMjBwbGF5aW5nJTIwbW92ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1"
+    },
+    {
+      "id": 5,
+      "name": "Call Mom",
+      "todo": "Call Mom to catch up and see how she's doing. Ask about her day and tell her about yours.",
+      "img_url": "https://images.unsplash.com/photo-1531837436648-1d2eac04f3f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FsbCUyMG1pbmclMjBwaG90b3Nob290aW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1"
+    },
+    {"id": 6,
+    "name": "Write a Blog Post",
+    "todo": "Choose a topic and write a blog post of at least 500 words. Edit the post for grammar and clarity.",
+    "img_url": "https://images.unsplash.com/photo-1593642532453-3c36e0f91e91?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZyUyMHBvc3QlMjBzaG9wcGluZyUyMGltYWdlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 7,
+    "name": "Practice Guitar",
+    "todo": "Practice playing guitar for at least 30 minutes. Focus on a new chord or song to learn.",
+    "img_url": "https://images.unsplash.com/photo-1542838139-7290d6d02064?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3VpdGFyJTIwbW92ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 8,
+    "name": "Cook Dinner",
+    "todo": "Plan and prepare a healthy dinner for the evening. Look up new recipes or try an old favorite.",
+    "img_url": "https://images.unsplash.com/photo-1592395266293-22b1c4b1f369?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29va2llJTIwZGlubmVyJTIwaW1hZ2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 9,
+    "name": "Read a Book",
+    "todo": "Choose a book and read for at least 30 minutes. Make note of any interesting or inspiring passages.",
+    "img_url": "https://images.unsplash.com/photo-1521747116042-5a810fda9665?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhZCUyMGJvb2slMjBpZmZpY2lhbCUyMG1vdmVyJTIwcGhvdG9zaG9wdGVyJTIwd2l0aCUyMGNvbW1lbnRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 10,
+    "name": "Take a Walk",
+    "todo": "Go for a walk around the block or in a nearby park. Enjoy the fresh air and scenery.",
+    "img_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdhdGNoJTIwd2FsbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 11,
+    "name": "Study Spanish",
+    "todo": "Spend at least 30 minutes studying Spanish. Use a textbook, app, or online resource to practice vocabulary and grammar.",
+    "img_url": "https://images.unsplash.com/photo-1517137036505-5a810fda9665?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhbmlzaCtwYXJ0cyUyMGltYWdlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 12,
+    "name": "Call a Friend",
+    "todo": "Call a friend or family member you haven't spoken to in a while. Catch up on each other's lives and make plans to get together.",
+    "img_url": "https://images.unsplash.com/photo-1554224151-0e2b13c71b30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZyaWVuZCUyMHBob3Rvc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 13,
+    "name": "Learn a New Skill",
+    "todo": "Choose a skill you've always wanted to learn and spend at least 30 minutes practicing it. This could be anything from coding to knitting to juggling.",
+    "img_url": "https://images.unsplash.com/photo-1576091161658-56a92a7a29e6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGlicmFyeSUyMGltYWdlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 14,
+    "name": "Do Yoga",
+    "todo": "Do a 30-minute yoga routine to stretch and relax your body. Focus on your breath and let go of any stress or tension.",
+    "img_url": "https://images.unsplash.com/photo-1536153604333-8680eecbacd7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8eW9nYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1"
+    },
+    {
+    "id": 15,
+    "name": "Watch a TED Talk",
+    "todo": "Find an interesting TED Talk and watch it. Take notes and reflect on what you learned from the talk.",
+    "img_url": "https://images.unsplash.com/photo-1554126307-685b1f9c7b42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVkJTIwdGFsa3N8ZW58MHx8MHx8&ixlib=rb-1.2.1"
+    }
+]
