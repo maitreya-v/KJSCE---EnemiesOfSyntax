@@ -11,7 +11,7 @@ schema_view = get_schema_view(
    openapi.Info(
       title="Enemies of Syntax API",
       default_version='v1',
-      description="Clash of Codes, Enemies of Syntax",
+      description="KJSCE Hack, Enemies of Syntax",
       terms_of_service="https://www.google.com/policies/terms/",
       #contact=openapi.Contact(email="contact@snippets.local"),
       #license=openapi.License(name="License"),
