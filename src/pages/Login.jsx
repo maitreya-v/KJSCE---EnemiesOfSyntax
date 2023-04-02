@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import login from '../assets/videos/login.mp4'
+import login2 from '../assets/videos/login2.mp4'
 import { Link } from 'react-router-dom';
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import logo from "../assets/images/logo.png";
+import LOGOF from "../assets/images/LOGOF.png";
 import { CometChat } from '@cometchat-pro/chat';
 import { COMETCHAT_CONSTANTS } from '../constants';
 
@@ -62,19 +62,19 @@ const Login = () => {
   return (
     <div className="h-screen relative overflow-hidden">
       <video autoPlay loop muted className="absolute -z-10 w-screen">
-        <source src={login} type="video/mp4" />
+        <source src={login2} type="video/mp4" />
       </video>
       <ToastContainer />
-      <div className="w-1/2 h-screen bg-gray-100/80 p-24">
+      <div className="w-1/2 h-screen p-24">
         <Link className='flex items-center gap-2' to="/">
-          <img className="w-8" src={logo} alt="" />
-          <h1 className="text-2xl font-bold underline decoration-blue-500">
+          <img className="w-8" src={LOGOF} alt="" />
+          <h1 className="text-2xl font-bold underline decoration-blue-500 text-white">
             tripbright
           </h1>
         </Link>
-        <h1 className="text-5xl font-semibold mt-12 uppercase">Login</h1>
+        <h1 className="text-5xl font-semibold mt-12 uppercase  text-white">Login</h1>
         <div className="mt-6">
-          <h1 className="text-gray-800 font-semibold mb-3">Enter Email</h1>
+          <h1 className="font-semibold mb-3  text-white">Enter Email</h1>
           <input
             type="text"
             className="w-full focus:outline-none px-4 py-3 bg-gray-100 rounded-lg text-sm text-gray-500 font-semibold"
@@ -84,7 +84,7 @@ const Login = () => {
           />
         </div>
         <div className="mt-6">
-          <h1 className="text-gray-800 font-semibold mb-3">Enter Password</h1>
+          <h1 className="font-semibold mb-3  text-white ">Enter Password</h1>
           <div className="relative">
             <input
               type={show ? "text" : "password"}
@@ -108,7 +108,7 @@ const Login = () => {
             Login
           </button>
         </div>
-        <h1 className="mt-4">
+        <h1 className="mt-4  text-white">
           Don't have an account?{" "}
           <Link to="/register" className="text-blue-700">
             Register

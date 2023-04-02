@@ -3,6 +3,7 @@ import { Navbar } from "../components/Navbar";
 import axios from 'axios';
 import { Box, Flex, Grid, GridItem, Heading, SimpleGrid, Text, VStack ,Spacer, Button, InputGroup, InputLeftAddon} from '@chakra-ui/react';
 import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import { Input } from '@chakra-ui/react'
 const Groups = () => {
   const [communityArray,setCommunityArray] = useState([])
@@ -47,7 +48,9 @@ const Groups = () => {
 </h2>
 <Spacer></Spacer>
 
-
+<button class="bg-emerald-500 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded-full">
+  <Link to='/createtrip'>Create Trip</Link>
+</button>
 
       </Flex>
 

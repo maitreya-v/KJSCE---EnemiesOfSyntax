@@ -22,6 +22,8 @@ import PackingList from "./pages/PackingList";
 import Task from "./pages/Task";
 import Groups from "./pages/Groups";
 import GroupDetail from "./pages/GroupDetail";
+import CreateTrip from "./pages/CreateTrip";
+import MapApp from './react-map/App'
 
 function App() {
   useEffect(() => {
@@ -55,6 +57,8 @@ function App() {
         <Route path="/groups" element={<Groups />}></Route>
         <Route path="/profile/list" element={<Task />}></Route>
         <Route path="/groupdetail/:id" element={<GroupDetail />}></Route>
+        <Route path="/createtrip" element={<CreateTrip />}></Route>
+        <Route path="/map" element={< MapApp/>}></Route>
       </Routes>
     </div>
   );

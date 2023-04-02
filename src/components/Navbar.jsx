@@ -1,5 +1,5 @@
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import travelLogo from "../assets/images/travelLogo.jpg";
 import { useState } from "react";
 import { useTranslation } from 'react-i18next'
 import { Fragment } from 'react'
@@ -45,7 +45,7 @@ export const Navbar = () => {
   return (
     <div className="w-full flex px-24 py-4 justify-between items-center">
       <div className="flex items-center gap-2">
-        <img className="w-8" src={logo} alt="" />
+        <img className="w-8" src={travelLogo} alt="" />
         <h1
           className={`text-2xl font-bold underline ${
             color === "emerald"
@@ -61,7 +61,7 @@ export const Navbar = () => {
               : "decoration-purple-500"
           }`}
         >
-        tripright
+        TRAVEEZY
         </h1>
       </div>
       <div className="flex gap-10 items-center capitalize">
